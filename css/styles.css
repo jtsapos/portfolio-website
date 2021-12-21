@@ -21,7 +21,7 @@ Text thin: 'Lato', sans-serif; 100
   --background-color: #fff;
   --header-color: #000;
   --footer-color: #fff;
-  --link-color: #0000CC;
+  --link-color: #0000B3;
   --link-color-visited: #357b70;
   --primary-font: 'Lato', sans-serif;
   --font-weight-light: 100;
@@ -143,10 +143,13 @@ a:active {
   margin-right: 40px;
   border-radius: 50%;
 }
+/*### Start of Header Styling*/
+
 .page-header {
   display: flex;
   width: 100%;
   padding: 20px;
+  background-color: var(--header-color);
 }
 .page-header__item {
   flex: 0 1 200px;
@@ -154,7 +157,8 @@ a:active {
 .page-header__logo {
   width: 135px;
   height: auto;
-  
+  border-radius: 50%;
+
 }
 .page-header__item:last-child {
   flex-grow: 1;
