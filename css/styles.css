@@ -154,6 +154,7 @@ a:active {
 .page-header__logo {
   width: 135px;
   height: auto;
+  
 }
 .page-header__item:last-child {
   flex-grow: 1;
