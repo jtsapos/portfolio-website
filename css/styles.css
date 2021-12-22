@@ -284,7 +284,7 @@ a:active {
       color: var(--link-color);
       text-decoration: none;
       padding: 10px;
-      margin-left: 50px;
+      margin: 0 auto;
       border-radius: 3px;
   /* width of the border, type, color */
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
