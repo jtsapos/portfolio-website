@@ -70,7 +70,7 @@ p {
 
 /* #### START OF Link styling #### */
 a {
- color: #0000CC;
+ color: #0000B3;
 }
 
 a:visited {
@@ -141,12 +141,15 @@ a:active {
   margin-right: 40px;
   border-radius: 50%;
 }
+/*### Start of Header Styling*/
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   padding: 20px;
+  background-color: #000;
 }
 .page-header__item {
   -webkit-box-flex: 0;
@@ -156,6 +159,8 @@ a:active {
 .page-header__logo {
   width: 135px;
   height: auto;
+  border-radius: 50%;
+
 }
 .page-header__item:last-child {
   -webkit-box-flex: 1;
@@ -334,10 +339,10 @@ a:active {
       font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
       background-color: #e0b354;
-      color: #0000CC;
+      color: #0000B3;
       text-decoration: none;
       padding: 10px;
-      margin-left: 50px;
+      margin: 0 auto;
       border-radius: 3px;
   /* width of the border, type, color */
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
@@ -359,10 +364,10 @@ a:active {
       font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
       background-color: #e0b354;
-      color: #0000CC;
+      color: #0000B3;
       text-decoration: none;
       padding: 10px;
-      margin-left: 50px;
+      margin: 0 auto;
       border-radius: 3px;
   /* width of the border, type, color */
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
